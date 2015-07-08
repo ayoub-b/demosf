@@ -23,6 +23,7 @@ int main (int arc, char **argv ) {
     if (arc > 0) {
         reverse(argv[1]);
         printf("%s", argv[1]);
+        printf("test \n");
     }
     return 1;
 }
