@@ -15,6 +15,7 @@ void reverse(char * str) {
            *end-- =tmp;
        }
     }
+    //
     printf("final :%s\n", end);
     //return str;
 }
