@@ -5,7 +5,6 @@ void reverse(char * str) {
     char tmp;
     if(str) {
         while(*end) {
-//          printf("points to : %s \n", end);
              ++end;
         }
         --end;
